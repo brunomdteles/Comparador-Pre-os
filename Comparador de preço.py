@@ -66,8 +66,7 @@ def main():
         #Leite
         get_data("Auchan", "https://www.auchan.pt/pt/alimentacao/produtos-lacteos/leites/leite-uht/leite-mimosa-uht-meio-gordo-1l/11885.html", "span.sales", "Leite Mimosa Meio Gordo 1L"),
         get_data("Continente", "https://www.continente.pt/pesquisa/?q=leite+meio+gordo+mimosa&start=0&srule=Continente&pmin=0.01", "span.value", "Leite Mimosa Meio Gordo 1L"),
-        get_data("Mini-Preço", "https://www.minipreco.pt/produtos/laticinios-e-ovos/leite/leite-meio-gordo-e-gordo/p/6693", "span.big-price", "Leite Mimosa Meio Gordo 1L"),
-        get_data("Mercadão", "https://mercadao.pt/store/pingo-doce/product/batata-doce-frita-pingo-doce-150-g", "h2._3MDF8HVHJABdafDgo7eFwa", "Leite Mimosa Meio Gordo 1L")
+        get_data("Mini-Preço", "https://www.minipreco.pt/produtos/laticinios-e-ovos/leite/leite-meio-gordo-e-gordo/p/6693", "span.big-price", "Leite Mimosa Meio Gordo 1L")
        ]
     print(results)
 if __name__ == "__main__":
